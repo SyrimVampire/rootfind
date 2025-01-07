@@ -35,14 +35,25 @@ p{
 #number,#number3{
     padding: 2%;
     font-size: xx-large;
+     border-radius:100px;
 }
 
 #submit,#submit3{
-    padding: 2%;
-    padding-left: 4%;
-    padding-right: 4%;
-    margin-left: 10%;
-    font-size: large;
+    border:none;
+    background: #0071ff;
+    padding:  .8em 2.5em;
+    border-radius:100px;
+    color: white;
+    font-family:Poppins;
+    font-size:1.2rem;
+    font-weight:500;
+    cursor:pointer;
+    transition:150ms ease;
+}
+
+#submit:hover,#submit3:hover{
+    background-color: #16d4ff;
+    scale:2;
 }
 
 #Main{
